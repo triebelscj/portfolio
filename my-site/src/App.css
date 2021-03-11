@@ -11,42 +11,54 @@ html {
 }
 
 .App{
-  background-color: rgb(227, 229, 230);
+  background-color: #c48585;
 }
 
 .navFlex{
   display: flex;
   justify-content: space-between;
-  padding: 20px 60px;
-  padding-top: 22px;
+  padding: 20px 10px;
+  padding-top: 40px;
   font-size: 16px;
   /* background-color: rgba(119, 119, 119, 0.308); */
 }
 
 .navFlex h1{
-  color: rgb(14, 94, 165);
+  color: #3F403F;
   font-weight: 100;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  margin: 0 30px;
+  cursor: pointer;
+}
+
+.navFlex h2{
+  color: #c6d0c6;
+  padding-left: 50px;
+  font-weight: 100;
+  font-size: 35px;
+  letter-spacing: 1px;
+  margin: 0 30px;
   cursor: pointer;
 }
 
 .contain{
   display: flex;
-  width: 500px;
+  width: 430px;
+  margin-right: 115px;
   justify-content: space-between;
 }
 
 .home{
   color: aliceblue;
   font-weight: 100;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-decoration: none;
 }
 
 .navFlex h1:hover , .home:hover{
-  color: aliceblue;
+  color: rgb(49, 87, 23);
   font-weight: 500;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 #dropdown-basic{
@@ -57,18 +69,6 @@ html {
   font-size: 30px;
   outline: none;
 }
-/* 
-.dropped-down{
-  display: inline-block;
-  width: 250px;
-  background-color: rgb(34, 34, 34);
-  text-decoration: none;
-  font-size: 30px;
-  height: 400px;
-  text-align: center;
-  padding: 20px 0;
-  border-radius: 20px 0 0 20px;
-} */
 
 
 .about-link{
@@ -79,14 +79,14 @@ html {
 }
 
 
-
 #container{
-  background-image: url(../src/components/img/me.JPG);
+  background-image: url(../src/components/img/bw.JPG);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  background-position-y: 50%;
-  background-size: contain;
+  background-position-x: 50%;
+  background-size: 596px;
   background-position: right;
   background-repeat: no-repeat;
+  background-color: rgb(29, 27, 27);
   width: 100vw;
   height: 100vh;
 
@@ -121,38 +121,53 @@ html {
 
 
 .hello{
-  text-align: center;
+  /* text-align: center; */
   width: 100vw;
   padding-top: 120px;
-  color: rgba(255, 216, 62, 0.623);
+  padding-left: 80px;
+  color: #bfbfc7;
   font-size: 180px;
   font-weight: 600;
-  letter-spacing: 59px;
-  text-shadow: 2px 4px 11px rgba(97, 97, 97, 0.438);
+  letter-spacing: 35px;
+  /* text-shadow: 2px 4px 11px rgba(97, 97, 97, 0.438); */
   /* clip-path: polygon(0 80%, 40% 0, 100% 70%, 60% 100%); */
 }
 
+.circle-one, .circle-2{
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  border: .1em solid rgba(160, 55, 55, 0.637);
+}
+
+.circle-2{
+  width: 1000px;
+  height: 1000px;
+  left: 220px;
+  top: -100px;
+}
+
 #container h5{
-  color: #fff;
+  color: #ffffff;
   font-size: 40px;
   padding-left: 100px;
-  padding-top: 90px;
 }
 
 #container h6{
-  color: rgb(245, 206, 77);
+  color: #c64436;
   font-size: 30px;
   padding-left: 20px;
-  padding-top: 10px;
   cursor: pointer;
 }
 
 #container h6:hover{
-  color: rgb(254, 228, 144);
+  color: #fc8c6a;
   font-weight: 600;
   font-size: 30px;
   padding-left: 20px;
-  padding-top: 10px;
   cursor: pointer;
 }
 
@@ -166,28 +181,29 @@ html {
 }
 
 .slash{
-  background-color: rgb(250, 195, 75);
-  height: 25px;
+  background-color:#a0452a;
+  height: 12px;
   width: 1px;
+  width: 12px;
   margin-left: 18px;
-  margin-top: 15px;
+  margin-top: 20px;
   transform: rotate(25deg);
-  border-radius:20px;
+  border-radius:50%;
 }
 
-.circle{
+/* .circle{
   width: 130px;
   height: 130px;
   position: fixed;
-  top: 560px;
+  top: 610px;
   border-radius: 50%;
-  margin-left: 85%;
+  margin-left: 8%;
   text-align: center;
-  border: 8px solid rgb(70, 106, 88);
+  border: 8px solid rgb(22, 170, 207);
   cursor: pointer;
-}
+} */
 
-.circle:hover{
+/* .circle:hover{
   width: 130px;
   height: 130px;
   position: fixed;
@@ -197,9 +213,9 @@ html {
   margin-bottom: 700px;
   text-align: center;
   border: 8px solid rgb(4, 145, 75);
-}
+} */
 
-.fa-arrow-down{
+/* .fa-arrow-down{
   padding: 15% 10%;
   font-size: 80px;
   color: rgba(155, 132, 39, 0.507);
@@ -212,12 +228,12 @@ html {
   font-size: 80px;
   color: rgba(215, 177, 28, 0.748);
   transform: rotate(360deg);
-}
+} */
 
 #container-two{
   width: 100vw;
   height: 95vh;
-  background-color: rgb(55, 67, 63);
+  background-color: rgb(26, 26, 26);
 }
 
 
@@ -226,17 +242,18 @@ html {
   /* margin-left: 40px; */
   padding: 60px 0;
   font-size: 60px;
-  color: rgb(220, 185, 98);
-  font-weight: 500;
+  color: rgb(159, 40, 19);
+  font-weight: 600;
+  font-family: 'Noto Sans HK', sans-serif;
 }
 
 
-.portfolio-display{
+/* .portfolio-display{
   width: 100vw;
   height: 98vh;
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(241, 233, 233);
   color: aliceblue;
-}
+} */
 
 .show-work{
   display: flex;
@@ -245,7 +262,7 @@ html {
 }
 
 .project{
-  background-color: red;
+  background-color: rgb(224, 188, 188);
   width: 350px;
   height: 300px;
   margin: 20px;
@@ -310,95 +327,34 @@ html {
 
 /* lllhhhhshshshs   container 3     hshhshshshshshshs */
 .container-3{
-  height: 800px;
-  width: 80%;
+  height: 100vh;
+  width: 100vw;
+  background-color: linear-gradient(ellipse at top, red, blue);
+  display: flex;
 }
 
- .prof-pic{
-   width: 350px;
-   height: 350px;
-   background: url(../src/components/img/me.JPG);
-   background-position-y: -80px;
-   background-size: 350px;
-   background-repeat: no-repeat;
-   margin: 0 48% 0;
-   box-shadow: 8px 5px 15px rgba(17, 17, 17, 0.858);
-   border-radius: 50%;
-   position: relative;
-   bottom: 520px;
+
+.skills{
+  position: relative;
+  padding-top: 40px;
+  /* display: flex; */
  }
 
- .link-lines{
-   position: relative;
- }
-
- .line-1, .line-2,.line-3,.line-4,.line-5{
-   background-color: rgb(131, 140, 128);
-   height: 5px;
-   position: relative;
-   box-shadow: 5px 5px 10px rgb(21, 21, 21);
- }
-
- .line-1{
-   bottom: 905px;
-   left: 175px;
-   transform: rotate(24deg);
-   width: 380px;
-   border-radius: 20px; 
- }
-
- .line-2{
-   bottom: 810px;
-   left: 180px;
-   transform: rotate(14deg);
-   width: 340px;
-   border-radius: 20px; 
- }
- 
- .line-3{
-   bottom: 720px;
-   left: 180px;
-   transform: rotate(0deg);
-   width: 330px;
-   border-radius: 20px; 
- }
-
- .line-4{
-   bottom: 620px;
-   left: 180px;
-   transform: rotate(-14deg);
-   width: 340px;
-   border-radius: 20px; 
- }
- 
- .line-5{
-   bottom: 530px;
-   left: 175px;
-   transform: rotate(-24deg);
-   width: 380px;
-   border-radius: 20px; 
- }
-
-
- .skills{
-   position: relative;
- }
-
- .skill-1,  .skill-2,  .skill-3,  .skill-4,  .skill-5{
+ .skill-1,  .skill-2,  .skill-3,  .skill-4,  .skill-5, .skill-6, .skill-7, .skill-8, .skill-9, .skill-10{
    width: 110px;
    height: 110px;
    border-radius: 50%;
-   border: 6px solid rgb(124, 162, 134);
+   border: 6px solid rgb(24, 24, 24);
    margin-left: 50px;
-   margin-top: 40px;
-   box-shadow: 2px 5px 10px rgb(14, 14, 14);
+   margin-top: 20px;
+   box-shadow: 2px 3px 15px rgba(31, 31, 31, 0.849);
  }
 
  .skill-1:hover,  .skill-2:hover,  .skill-3:hover,  .skill-4:hover,  .skill-5:hover{
    width: 110px;
    height: 110px;
    border-radius: 50%;
-   border: 13px solid rgb(139, 255, 170);
+   border: 13px solid rgb(255, 139, 139);
  }
 
 .skill-1{
@@ -408,14 +364,12 @@ html {
   background-position-x: center;
 }
 .skill-2{
-  position: relative;
   background: url(../src/components/img/js.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: -20px;
   background-position-x: -12px;
   background-color: rgb(250, 226, 41);
-  /* margin-top: 170px; */
 }
 .skill-3{
   background: url(../src/components/img/react.jpg);
@@ -432,8 +386,7 @@ html {
   background-position-x: center;
   background-position-y: center;
   position: relative;
-  /* left: 120px;
-  margin-top: 170px; */
+  background-color: rgb(28, 28, 28);
 }
 .skill-5{
   background: url(../src/components/img/django.png);
@@ -444,17 +397,50 @@ html {
   background-color: rgb(16, 46, 12);
 }
 
-.title h1{
-  position: relative;
-  bottom: 1080px;
-  left: 145px;
-  color: #dfdfdf;
-  font-weight: 300;
-  font-size: 40px;
-  text-align: center;
-  text-shadow: 2px 5px 10px rgb(17, 17, 17);
+.skills-2{
+
 }
 
+.skill-6{
+  background: url(../src/components/img/git.png);
+  background-size: 190%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-color: rgb(16, 46, 12);
+}
+.skill-7{
+  background: url(../src/components/img/git.png);
+  background-size: 190%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-color: rgb(16, 46, 12);
+}
+.skill-8{
+  background: url(../src/components/img/ps.png);
+  background-size: 320%;
+  background-repeat: no-repeat;
+  background-position-x: -108px;
+  background-position-y: -23px;
+  background-color: rgb(16, 46, 12);
+}
+.skill-9{
+  background: url(../src/components/img/xd.jpg);
+  background-size: 180%;
+  background-repeat: no-repeat;
+  background-position-x: -40px;
+  background-position-y: -35;
+  background-color: rgb(16, 46, 12);
+}
+.skill-10{
+  background: url(../src/components/img/fig.png);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-color: #2C2E34;
+}
 
 
 
@@ -463,11 +449,11 @@ html {
 .connect-display{
   height: 98vh;
   background-color: rgb(31, 31, 31);
-  padding: 50px;
+  padding: 40px;
 }
 
 .connect-display h1{
-  color: rgb(213, 205, 100);
+  color: rgb(223, 90, 67);
   text-align: center;
   margin-bottom: 30px;
   font-weight: 300;
@@ -484,7 +470,7 @@ html {
 
 .form-input{
   height: 38px;
-  background-color: rgba(87, 72, 72, 0);
+  background-color: rgba(226, 209, 209, 0);
   outline: aliceblue;
   cursor: pointer;
   border-bottom: 1px solid aliceblue;
@@ -495,12 +481,12 @@ html {
 }
 
 form label{
-  color: rgb(104, 194, 152);
+  color: rgb(198, 198, 198);
   font-size: 22px;
 }
 
 .texting{
-  height: 150px;
+  height: 100px;
   border-radius: 9px;
   caret-color: rgb(0, 132, 255);
   cursor: progress;
@@ -527,7 +513,7 @@ input[type=text], input[type=email], textarea[type=text]   {
   height: 35px;
   border-radius: 8px;
   border: none;
-  background-color: rgb(86, 150, 117);
+  background-color: rgb(252, 86, 86);
   margin: 0 auto;
   margin-top: 20px;
 }

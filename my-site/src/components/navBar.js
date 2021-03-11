@@ -29,7 +29,7 @@ function navBar() {
                 <h1 onClick={handleMenu}>Menu</h1>
             </nav> */}
             <Dropdown className="navFlex">
-                <h1><i className="far fa-map"></i></h1>
+                <h2><i className="far fa-map"></i></h2>
                 <div className="contain">
                     <h1 onClick={portScroll}>Portfolio</h1>
                     <h1 onClick={aboutScroll}>About</h1>

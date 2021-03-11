@@ -12,19 +12,19 @@ function About() {
                     <div className="skill-4"></div>
                     <div className="skill-5"></div>
                 </div>
-                <div className="prof-pic"></div>
-                <div className="link-lines">
-                    <div className="line-1"></div>
-                    <div className="line-2"></div>
-                    <div className="line-3"></div>
-                    <div className="line-4"></div>
-                    <div className="line-5"></div>
+                {/* <div className="prof-pic"></div> */}
+                <div className="skills-2">
+                    <div className="skill-6"></div>
+                    <div className="skill-7"></div>
+                    <div className="skill-8"></div>
+                    <div className="skill-9"></div>
+                    <div className="skill-10"></div>
                 </div>
-                <div className="title">
+                {/* <div className="title">
                     <h1>FullStack Developer</h1>
                     <h1>&</h1>
                     <h1>UI Designer</h1>
-                </div>
+                </div> */}
             </div>
         </div>
 

@@ -4,7 +4,7 @@ function Portfolio() {
     return (
         <div className="portfolio-display">
             <div id="container-two">
-                <h1>Recent Projects</h1>
+                <h1>Portfolio</h1>
                 <div className="show-work">
                     <div className="flip-card myDIV">
                         <div className="flip-card-inner myDIV">
